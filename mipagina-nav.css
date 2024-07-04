@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.taza {
+  width: 60px;
+}
+.flores {
+  background-image: url("/imagenes/imagen\ largas.jpg");
+  width: 100vw;
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.encabezado {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(252, 253, 253);
+  align-items: center;
+}
+.lista {
+  display: flex;
+  background-color: rgb(252, 253, 253);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration-color: black;
+}
+li {
+  list-style: none;
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  justify-content: start;
+}
+
+@media (width<=768px){
+  .h1{
+    font-size: 1px;
+  }
+  ul{
+    flex-direction: column;
+    width: 100%;
+  }
+  .encabezado{
+    width: 100%;
+  }
+  .flores{
+    width: 100%;
+  }
+}

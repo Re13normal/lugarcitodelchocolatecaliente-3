@@ -1,0 +1,81 @@
+body {
+  background: url(/imagenes/fodo\ gif.gif);
+}
+.color {
+  width: 115px;
+  height: 230px;
+}
+.pitoto {
+  width: 100%;
+  padding: 20px;
+}
+.episodios {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+.capitulos {
+  background: url(/imagenes/estrellita.jfif);
+  text-align: center;
+  border-radius: 30px;
+  margin: 30px;
+}
+h2 {
+  font-size: 50px;
+  color: rgb(252, 249, 249);
+}
+p {
+  color: rgb(252, 250, 250);
+}
+.sinopsis {
+  margin: 1%;
+  padding: 2%;
+  border-radius: 30px;
+  background-color: rgb(248, 246, 108);
+  gap: 25px;
+}
+.cuento {
+  color: black;
+  text-align: justify;
+}
+.sin {
+  color: black;
+}
+.mailin {
+  flex-basis: 60%;
+  margin: 35px;
+}
+.q {
+  width: 100%;
+}
+.gif {
+  width: 700px;
+}
+.apartado {
+background: url(/imagenes/fondo\ tmnt.jfif);
+text-align: center;
+border-radius: 30px;
+margin: 30px;
+}
+.siss{
+  margin: 1%;
+  padding: 2%;
+  border-radius: 30px;
+  background-color: rgb(40, 44, 102);
+  gap: 25px;
+}
+
+@media (width<=768px){
+  .pitoto{
+    flex-direction: column;
+    
+  }
+  .episodios{
+    flex-wrap: wrap;
+  }
+  .flores{
+    width: 100%;
+  }
+}

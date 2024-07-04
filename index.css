@@ -1,0 +1,21 @@
+body {
+  background-image: url("/imagenes/fondo.jpg");
+}
+.zapatillas {
+  width: 300px;
+}
+.cajota {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.cajita {
+  background-color: rgb(72, 138, 99);
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
