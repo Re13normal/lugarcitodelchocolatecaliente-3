@@ -1,5 +1,5 @@
 body {
-  background: url(/imagenes/fodo\ gif.gif);
+  background: url(./imagenes/fodo\ gif.gif);
 }
 .color {
   width: 115px;
@@ -17,7 +17,7 @@ body {
   gap: 25px;
 }
 .capitulos {
-  background: url(/imagenes/estrellita.jfif);
+  background: url(./imagenes/estrellita.jfif);
   text-align: center;
   border-radius: 30px;
   margin: 30px;
@@ -54,7 +54,7 @@ p {
   width: 700px;
 }
 .apartado {
-background: url(/imagenes/fondo\ tmnt.jfif);
+background: url(./imagenes/fondo\ tmnt.jfif);
 text-align: center;
 border-radius: 30px;
 margin: 30px;
