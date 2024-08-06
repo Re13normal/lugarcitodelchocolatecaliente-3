@@ -11,6 +11,7 @@ body {
 }
 .cajita {
   background-color: rgb(72, 138, 99);
+  padding: 7px;
   font-size: 25px;
   text-align: center;
   justify-content: center;
