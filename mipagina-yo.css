@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url(/imagenes/fodito.jpg);
+  background: url(./imagenes/fodito.jpg);
 }
 .contenedor {
   height: 150%;
