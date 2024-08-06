@@ -35,7 +35,7 @@ body {
 }
 .gustos {
   margin: 10px;
-  padding: 5px;
+  padding: 15px;
   grid-column: 3/4;
   grid-row: 1/3;
 }
