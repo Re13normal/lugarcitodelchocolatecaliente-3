@@ -9,7 +9,7 @@
   width: 60px;
 }
 .flores {
-  background-image: url("/imagenes/imagen\largas.jpg");
+  background-image: url("./imagenes/imagen\largas.jpg");
   width: 100vw;
   height: 20vw;
   background-repeat: no-repeat;
